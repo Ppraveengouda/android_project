@@ -10,13 +10,13 @@ android:layout_height="match_parent" >
     android:id="@+id/textViewName"
     android:layout_row="0"
     android:layout_column="1"
-    android:fontFamily="serif-monospace"
-    android:textSize="30sp"
-    android:lineSpacingExtra="10sp"
-    android:textColor="@android:color/background_dark"
+    android:textSize="24sp"
+    android:lineSpacingExtra="12sp"
+    android:textColor="@android:color/darker_gray"
     android:textStyle="normal|bold"
     android:textAlignment="center"
-    android:typeface="serif" />
+    android:typeface="normal"
+    android:fontFamily="cursive" />
 
 
 <TextView
@@ -27,7 +27,7 @@ android:layout_height="match_parent" >
     android:id="@+id/textViewDesc"
     android:layout_row="1"
     android:layout_column="1"
-    android:fontFamily="serif-monospace"
+    android:fontFamily="monospace"
     android:textSize="18sp"
     android:textColor="@android:color/darker_gray"
     android:textAlignment="textStart"

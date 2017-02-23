@@ -9,25 +9,18 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.myrule.hangalkumaraswamiji.MainActivity"
-    android:background="@android:color/holo_blue_bright">
+    tools:context="com.myrule.hangalkumaraswamiji.Home"
+    android:background="@android:color/background_light">
 
 
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="300dp"
-        android:id="@+id/horizontal_scroll">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:id="@+id/linear_scroll" />
-    </HorizontalScrollView>
-
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hangalkuma02"
+        android:id="@+id/imageView"
+        android:paddingBottom="300dp"
+        android:cropToPadding="false"
+        android:fadingEdge="horizontal|vertical" />
 
     <ListView
         android:layout_width="match_parent"
